@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<!-- Lien vers le contrôleur -->
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.example.resultatexamen.DetailController" spacing="10" alignment="CENTER">
+    <Label fx:id="matriculeLabel" text="" style="-fx-font-size: 16px;" />
+    <Label fx:id="nomLabel" text="" style="-fx-font-size: 16px;" />
+    <Label fx:id="prenomLabel" text="" style="-fx-font-size: 16px;" />
+    <Label fx:id="dobLabel" text="" style="-fx-font-size: 16px;" />
+    <Label fx:id="ecoleLabel" text="" style="-fx-font-size: 16px;" />
+    <Label fx:id="moyenneLabel" text="" style="-fx-font-size: 16px;" />
+</VBox>
